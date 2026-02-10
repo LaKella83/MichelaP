@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michela Paganini | Back Office & Logistic Specialist</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .hero-section { background-color: #f8fafc; }
+        .section-title { position: relative; padding-bottom: 0.75rem; }
+        .section-title::after { content: ''; position: absolute; bottom: 0; left: 0; width: 50px; height: 3px; background-color: #4f46e5; }
+        .text-justify { text-align: justify; }
+        .lang-badge { background-color: #eef2ff; color: #4338ca; border: 1px solid #e0e7ff; }
+    </style>
+</head>
+<body class="bg-white text-slate-800 leading-relaxed">
+
+    <!-- Navigazione -->
+    <nav class="fixed w-full bg-white/95 backdrop-blur-sm z-50 border-b border-slate-100">
+        <div class="max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
+            <span class="text-xl font-bold tracking-tight text-slate-900 uppercase">Michela Paganini</span>
+            <div class="hidden md:flex space-x-10 text-sm font-semibold uppercase tracking-wider">
+                <a href="#profilo" class="hover:text-indigo-600 transition">Profilo</a>
+                <a href="#esperienze" class="hover:text-indigo-600 transition">Esperienze</a>
+                <a href="#formazione" class="hover:text-indigo-600 transition">Formazione</a>
+                <a href="#contatti" class="hover:text-indigo-600 transition">Contatti</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Sezione Hero -->
+    <header id="profilo" class="pt-40 pb-24 hero-section">
+        <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center">
+            <div class="md:w-2/3 md:pr-16 text-center md:text-left">
+                <h1 class="text-4xl md:text-5xl font-extrabold text-slate-900 mb-6 uppercase">Back Office & Logistic Specialist</h1>
+                <p class="text-xl text-slate-600 mb-8 leading-relaxed">
+                    Esperta nella gestione del ciclo dell'ordine e della logistica internazionale con oltre 19 anni di esperienza nel settore dei macchinari industriali. Specializzata in mercati Extra-UE e compliance doganale.
+                </p>
+                <div class="flex flex-wrap gap-4 justify-center md:justify-start">
+                    <a href="#esperienze" class="px-8 py-3 bg-slate-900 text-white rounded font-bold hover:bg-slate-800 transition uppercase text-sm tracking-widest">Esperienza Professionale</a>
+                    <button onclick="window.print()" class="px-8 py-3 border border-slate-300 rounded font-bold hover:bg-white transition uppercase text-sm tracking-widest">Scarica CV</button>
+                </div>
+            </div>
+            <div class="md:w-1/3 mt-12 md:mt-0">
+                <!-- Riga 54: Inserimento della tua foto caricata -->
+                <img src="Foto modificata.jpg" alt="Ritratto professionale di Michela Paganini" class="rounded shadow-2xl transition duration-500 w-full max-w-sm mx-auto border-8 border-white object-cover aspect-[3/4]">
+            </div>
+        </div>
+    </header>
+
+    <!-- Riepilogo Statistiche -->
+    <section class="py-16 bg-slate-900 text-white">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-12 text-center">
+            <div>
+                <div class="text-4xl font-light mb-2">19+</div>
+                <div class="text-xs text-slate-400 uppercase tracking-widest">Anni di Settore</div>
+            </div>
+            <div>
+                <div class="text-4xl font-light mb-2">€100k</div>
+                <div class="text-xs text-slate-400 uppercase tracking-widest">Target Commesse</div>
+            </div>
+            <div>
+                <div class="text-4xl font-light mb-2">B2B</div>
+                <div class="text-xs text-slate-400 uppercase tracking-widest">Clientela Estera</div>
+            </div>
+            <div>
+                <div class="text-4xl font-light mb-2">C1</div>
+                <div class="text-xs text-slate-400 uppercase tracking-widest">Lingua Inglese</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sezione Esperienze -->
+    <section id="esperienze" class="py-24">
+        <div class="max-w-4xl mx-auto px-6">
+            <h2 class="text-3xl font-bold text-slate-900 mb-16 uppercase tracking-tighter section-title">Percorso Professionale</h2>
+            
+            <div class="space-y-16">
+                <!-- Esperienza Attuale -->
+                <div>
+                    <div class="flex justify-between items-start mb-4">
+                        <div>
+                            <h3 class="text-xl font-bold text-indigo-600">Volontaria – Gestione Segreteria e Amministrazione</h3>
+                            <p class="text-slate-500 font-medium italic">Associazione Culturale Eventi Musicali</p>
+                        </div>
+                        <span class="text-sm font-bold text-slate-400 uppercase">2025 — Oggi</span>
+                    </div>
+                    <p class="text-slate-600 text-justify mb-4">Supporto amministrativo e coordinamento logistico per eventi culturali. Gestione della segreteria organizzativa e pianificazione flussi operativi.</p>
+                </div>
+
+                <!-- Carriera Principale -->
+                <div>
+                    <div class="flex justify-between items-start mb-4">
+                        <div>
+                            <h3 class="text-xl font-bold text-slate-900 uppercase">Impiegata Back Office Commerciale Estero e Logistica</h3>
+                            <p class="text-slate-500 font-medium italic">FEBA Srl Converting Machinery – Magnago (MI)</p>
+                        </div>
+                        <span class="text-sm font-bold text-slate-400 uppercase">2006 — 2025</span>
+                    </div>
+                    <div class="space-y-6 text-slate-600">
+                        <div>
+                            <h4 class="font-bold text-slate-800 text-sm uppercase mb-2">Gestione Operativa & Continuità Aziendale</h4>
+                            <p class="text-justify">Responsabile del ciclo completo dell'ordine per ricambi e macchinari industriali. Supervisione del flusso ordini durante fasi di transizione dirigenziale, garantendo la stabilità operativa e la soddisfazione dei clienti B2B internazionali.</p>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-800 text-sm uppercase mb-2">Logistica Internazionale & Compliance</h4>
+                            <p class="text-justify">Coordinamento di spedizioni complesse (container e groupage) verso mercati Extra-UE e EU. Gestione documentale autonoma: CMR, certificati di origine e dichiarazioni doganali.</p>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-slate-800 text-sm uppercase mb-2">Ottimizzazione e Customer Care</h4>
+                            <p class="text-justify">Negoziazione tariffe con partner logistici e riduzione dei costi fissi di trasporto. Interfaccia diretta con la produzione per la risoluzione di criticità tecniche e reclami.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formazione e Lingue -->
+    <section id="formazione" class="py-24 bg-slate-50 border-y border-slate-100">
+        <div class="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-20">
+            <!-- Colonna Sinistra: Formazione -->
+            <div>
+                <h2 class="text-3xl font-bold text-slate-900 mb-12 uppercase tracking-tighter section-title">Formazione</h2>
+                <div class="space-y-8">
+                    <div>
+                        <span class="text-xs font-bold text-indigo-600 uppercase">In corso</span>
+                        <h4 class="font-bold text-slate-900">Specialista in Intelligenza Artificiale Applicata</h4>
+                        <p class="text-sm text-slate-500">AKG Italia | Formazione avanzata per l'ottimizzazione dei processi aziendali (90 ore).</p>
+                    </div>
+                    <div>
+                        <span class="text-xs font-bold text-slate-400 uppercase">2011</span>
+                        <h4 class="font-bold text-slate-900">Laurea Magistrale in Lingue e Culture</h4>
+                        <p class="text-sm text-slate-500 italic">Comunicazione e Cooperazione Internazionale – Università degli Studi di Milano</p>
+                    </div>
+                    <div>
+                        <span class="text-xs font-bold text-slate-400 uppercase">2006</span>
+                        <h4 class="font-bold text-slate-900">Laurea Triennale in Mediazione Linguistica</h4>
+                        <p class="text-sm text-slate-500 italic">Università degli Studi di Milano</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Colonna Destra: Lingue -->
+            <div>
+                <h2 class="text-3xl font-bold text-slate-900 mb-12 uppercase tracking-tighter section-title">Conoscenze Linguistiche</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-12">
+                    <div class="flex items-center justify-between p-4 bg-white rounded shadow-sm border border-slate-200">
+                        <div>
+                            <span class="block text-xs font-bold text-slate-400 uppercase">Inglese</span>
+                            <span class="font-bold text-slate-800">Fluente</span>
+                        </div>
+                        <span class="px-2 py-1 text-xs font-bold rounded lang-badge">C1</span>
+                    </div>
+                    <div class="flex items-center justify-between p-4 bg-white rounded shadow-sm border border-slate-200">
+                        <div>
+                            <span class="block text-xs font-bold text-slate-400 uppercase">Spagnolo</span>
+                            <span class="font-bold text-slate-800">Buono</span>
+                        </div>
+                        <span class="px-2 py-1 text-xs font-bold rounded lang-badge">B2</span>
+                    </div>
+                    <div class="flex items-center justify-between p-4 bg-white rounded shadow-sm border border-slate-200">
+                        <div>
+                            <span class="block text-xs font-bold text-slate-400 uppercase">Tedesco</span>
+                            <span class="font-bold text-slate-800">Intermedio</span>
+                        </div>
+                        <span class="px-2 py-1 text-xs font-bold rounded lang-badge">B1</span>
+                    </div>
+                    <div class="flex items-center justify-between p-4 bg-white rounded shadow-sm border border-slate-200">
+                        <div>
+                            <span class="block text-xs font-bold text-slate-400 uppercase">Francese</span>
+                            <span class="font-bold text-slate-800">Elementare</span>
+                        </div>
+                        <span class="px-2 py-1 text-xs font-bold rounded lang-badge">A2</span>
+                    </div>
+                </div>
+
+                <h3 class="text-lg font-bold text-slate-900 mb-6 uppercase tracking-tight">Competenze Tecniche</h3>
+                <div class="grid grid-cols-2 gap-6">
+                    <div>
+                        <h4 class="font-bold text-slate-800 mb-2 text-xs uppercase text-indigo-600">Logistica</h4>
+                        <ul class="text-sm text-slate-600 space-y-1 font-medium">
+                            <li>• Incoterms 2020</li>
+                            <li>• Gestione Doganale</li>
+                            <li>• Documentazione Export</li>
+                            <li>• Scouting Partner</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-slate-800 mb-2 text-xs uppercase text-indigo-600">Digital</h4>
+                        <ul class="text-sm text-slate-600 space-y-1 font-medium">
+                            <li>• Pacchetto Office</li>
+                            <li>• Sistemi ERP</li>
+                            <li>• Digital Marketing</li>
+                            <li>• AI per Produttività</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Profilo Personale -->
+    <section class="py-24">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold text-slate-900 mb-8 uppercase tracking-tighter">Attitudine & Profilo Personale</h2>
+            <p class="text-lg text-slate-600 mb-12 text-justify">
+                Oltre alle competenze tecniche, porto con me un'attitudine al problem solving forgiata in contesti dinamici e multiculturali. La mia esperienza decennale negli <strong>Scout AGESCI</strong> e il mio ruolo come <strong>violinista</strong> e responsabile organizzativa di una band musicale mi hanno insegnato l'importanza della precisione logistica "sul campo", della gestione dello stress e del lavoro di squadra verso obiettivi comuni.
+            </p>
+            <div class="flex justify-center gap-12">
+                <div class="flex flex-col items-center">
+                    <div class="w-16 h-16 rounded-full bg-slate-100 flex items-center justify-center text-slate-600 mb-4">
+                        <i class="fas fa-handshake text-2xl"></i>
+                    </div>
+                    <span class="text-xs font-bold uppercase tracking-widest text-slate-500">Affidabilità</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <div class="w-16 h-16 rounded-full bg-slate-100 flex items-center justify-center text-slate-600 mb-4">
+                        <i class="fas fa-sync text-2xl"></i>
+                    </div>
+                    <span class="text-xs font-bold uppercase tracking-widest text-slate-500">Adattabilità</span>
+                </div>
+                <div class="flex flex-col items-center">
+                    <div class="w-16 h-16 rounded-full bg-slate-100 flex items-center justify-center text-slate-600 mb-4">
+                        <i class="fas fa-globe text-2xl"></i>
+                    </div>
+                    <span class="text-xs font-bold uppercase tracking-widest text-slate-500">Mindset Estero</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer e Contatti -->
+    <footer id="contatti" class="bg-slate-900 text-white pt-20 pb-10">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-8 uppercase tracking-widest">Contatti Professionali</h2>
+            <div class="flex flex-col md:flex-row justify-center gap-8 mb-16">
+                <a href="mailto:michela.paganini.it@gmail.com" class="text-lg hover:text-indigo-400 transition underline underline-offset-8">michela.paganini.it@gmail.com</a>
+                <a href="tel:+393283011154" class="text-lg hover:text-indigo-400 transition underline underline-offset-8">+39 328 3011154</a>
+            </div>
+            <p class="text-slate-500 text-sm mb-4 italic">Olgiate Olona (VA) | Disponibile a trasferte internazionali</p>
+            <div class="text-[10px] text-slate-600 uppercase tracking-[0.3em] pt-10">
+                © 2026 Michela Paganini
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
